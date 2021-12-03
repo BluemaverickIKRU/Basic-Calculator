@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1637050341869-67f1658f1f9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60://unsplash.com/photos/6-sJu5PGqBo);
+    background-size: cover;
+    font-size: 1.3em;
+    font-family: cursive;
+    font-weight: bolder;
+}
+h1 {
+    margin-top: 1em;
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+input,button {
+    text-align: center;
+    width: 10em;
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+button {
+    width: 12em;
+    background: linear-gradient(to right,green,white);
+    border: 3px solid black;
+    color: black;
+}
+
+#result {
+    font-size: 2.7em;
+    color: white;
+}
+
+input:hover,button:hover {
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor: pointer;
+}
